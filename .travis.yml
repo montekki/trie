@@ -7,5 +7,5 @@ matrix:
     - rust: nightly
 script:
   - cargo build
-  - cargo test --all --benches
+  - cargo check --all --benches
   
